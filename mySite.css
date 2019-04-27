@@ -1,0 +1,307 @@
+* {
+	margin: 0 auto;
+
+
+}
+body {
+	background-image:url("Oceans+back+from+the+Brink_FINAL+WEB.png");
+	background-size:1800px;
+	background-repeat: no-repeat;
+	min-width: 800px;
+}
+
+
+.header {
+	width: 100%;
+	height: 80px;
+	background-color: #001a66;
+	z-index: 10;
+	border-bottom: 3px #00061a solid;
+}
+
+.header_log {
+   font-size: 22px;
+
+}
+
+
+.header_log--my {
+	background-color: #ccd9ff;
+	color: #001a66;
+	display: inline-block;
+	padding: 2px;
+	margin-left:10px;
+	margin-top:10px;
+}
+
+.header_log--site {
+	background-color: #4d79ff;
+	color: #ccd9ff;
+	display: inline-block;
+	padding: 2px;
+	margin-left:-6px;
+
+}
+
+.header_options {
+   text-align: right;
+   position: relative;
+   bottom: 30px;
+   right: 20px;
+   margin-left: 195px;
+   height: 25px;
+   overflow: hidden;
+	
+}
+
+
+.header_options a {
+	font-size:20px;
+    margin:0px 10px;
+	display: inline-block;
+	color: #ccd9ff;
+	font-family: Georgia;
+	text-decoration: none;
+	transition: 2s;
+}
+
+.header_options a:hover {
+	color: white;
+	text-decoration: underline;
+	transition: 2s;
+}
+
+/*menu*/
+.menu {
+
+	text-align: center;
+	margin-left:0px; 
+	width:300px;
+	height:600px;
+	background-color:#0099e6;
+	border: 3px #ccd9ff solid; 
+   
+}
+.menuborder {
+	margin-top:10px;
+	margin-left:10px;
+
+	padding: 0px;
+	width:306px;
+	height:606px;
+
+	border: 6px #001a66 solid;
+}
+
+.menu h1 {
+	color:white;
+	font-size:45px;
+	border: 3px white solid;
+	margin:8px;
+	padding: 0px 4px;
+	border-radius: 10px;
+}
+
+.menu a {
+	display: block;
+	color: #ccd9ff;
+	font-size:35px;
+	text-decoration: none;
+	font-family:Georgia;
+
+	padding: 30px;
+}
+.menu a:hover {
+	background-color: #001a66;
+	color:white;
+}
+
+.soc a {
+	padding: 2px;
+	font-size:16px;
+	display:inline-block;
+	border-radius:5px;
+	color: #001a66;
+}
+.soc a:hover {
+	text-decoration: underline;
+}
+
+.soc {
+	color: #001a66;
+}
+
+.menu h2 {
+	color: #001a66;
+	margin:25px 0px;
+}
+
+
+/*restaurant*/
+
+.restaurant {
+    margin-top:200px;/*misce*/
+	width: 100%;
+
+
+    flex-flow: row wrap;
+	background-color: #001a66;
+	display: flex;
+
+	align-items:center;
+    justify-content: space-around;
+	align-content: space-around;
+
+    padding:40px 0px;
+
+}
+
+.restaurant--img {
+	border:3px #ccd9ff solid;
+	margin-top: 40px;
+    overflow: scroll;
+    
+
+}
+.restaurant a {
+    position: relative;
+}
+
+.restaurant a:before {
+	content: '';
+	position: absolute;
+	width:800px;
+	height: 400px;
+	background-color: black;
+	left:3px;
+	top:43px;
+	margin: 0px;
+	opacity: 0;
+	transition:2s;
+}
+.restaurant a:hover:before{
+	opacity:0.7;
+}
+.restaurant a:after {
+	content:'Замовити столик за 10$';
+	position: absolute;
+	font-size:50px;
+	color:white;
+	bottom:170px;
+	left:150px;
+	opacity: 0;
+	transition:1s;
+}
+.restaurant a:hover:after {
+    opacity:1;
+}
+
+.restaurant p {
+
+    text-align: center;
+	width: 600px;
+
+	color:#ccd9ff;
+	font-size: 30px;
+	font-family: Georgia;
+}
+
+
+/*hotel*/
+.hotel {
+    margin-top:200px;/*misce*/
+	width: 100%;
+
+
+    flex-flow: row wrap;
+	background-color: #001a66;
+	display: flex;
+
+	align-items:center;
+    justify-content: space-around;
+	align-content: space-around;
+
+    padding:40px 0px;
+
+}
+
+.hotel--img {
+	border:3px #ccd9ff solid;
+	margin-top: 40px;
+    overflow: scroll;
+    
+
+}
+.hotel a {
+    position: relative;
+}
+
+.hotel a:before {
+	content: '';
+	position: absolute;
+	width:800px;
+	height: 400px;
+	background-color: black;
+	left:3px;
+	top:43px;
+	margin: 0px;
+	opacity: 0;
+	transition:2s;
+}
+.hotel a:hover:before{
+	opacity:0.7;
+}
+.hotel a:after {
+	content:'Знмовити номер за 15$ в день';
+	position: absolute;
+	font-size:50px;
+	color:white;
+	bottom:170px;
+	left:90px;
+	opacity: 0;
+	transition:1s;
+}
+.hotel a:hover:after {
+    opacity:1;
+}
+
+.hotel p {
+
+    text-align: center;
+	width: 600px;
+
+	color:#ccd9ff;
+	font-size: 30px;
+	font-family: Georgia;
+}
+
+
+/*hjdfhjdhjgdhgs*/
+
+.prostorimg-1 {
+	width:100%;
+	height:500px;
+	background-image: url(wallpaper-2054343.jpg);
+	background-position:bottom;
+}
+
+.hotel {
+   margin-top: 0px;
+}
+
+.prostorimg-2 {
+	width:100%;
+	height:500px;
+	background-image: url(wallpaper-2054343.jpg);
+	background-position:center;
+}
+
+
+#footer {
+	font-size: 50px;
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	color:white;
+	background-color: #001a66;
+}
