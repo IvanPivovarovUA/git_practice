@@ -62,13 +62,13 @@ body {
 	color: #ccd9ff;
 	font-family: Georgia;
 	text-decoration: none;
-	transition: 2s;
+
 }
 
 .header_options a:hover {
 	color: white;
 	text-decoration: underline;
-	transition: 2s;
+
 }
 
 /*menu*/
@@ -252,7 +252,7 @@ body {
 	opacity:0.7;
 }
 .hotel a:after {
-	content:'Знмовити номер за 15$ в день';
+	content:'Замовити номер за 15$ в день';
 	position: absolute;
 	font-size:50px;
 	color:white;
